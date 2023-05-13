@@ -1,0 +1,20 @@
+{
+  "name": "music-category-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hypnos86/music-category-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hypnos86/music-category-TS/issues"
+  },
+  "homepage": "https://github.com/Hypnos86/music-category-TS#readme"
+}
