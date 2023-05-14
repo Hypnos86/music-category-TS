@@ -10,23 +10,17 @@
 <body>
     <h5 class="title">Music Grouper</h6>
     <div class="container">
-        <form class="form-container">
+        <form class="form-container" autocomplete="off">
             <label for="name">Zespół muzyczny: </label>
             <input id="name" type="text">
             <button>Dodaj</button>
         </form>
     </div>
-    <form class="form-container">
-        <label for="name">Zespół muzyczny: </label>
-        <input id="name" type="text">
-        <button>Dodaj</button>
-    </form>
-    <div class="container-band">
-        <ul class="band">
-            <li>
-                <label for="band-1">Metallica</label>
-                <input id="band-1" type="checkbox" name="Metallica">
-            </li>
+    <div class="container-bands">
+        <h5 class="header-band">Lista wykonawców muzycznych</h5>
+
+        <ul class="bands">
+
         </ul>
     </div>
     <script src="dist/app.js"></script>
